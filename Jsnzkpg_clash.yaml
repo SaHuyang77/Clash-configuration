@@ -45,7 +45,6 @@ proxies:
   - {"name":"印度_R_361","type":"ssr","server":"iepl-hn.cctelescope.xyz","port":21637,"password":"hGkQ6915tD","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","obfs-param":"ajax.microsoft.com","protocol-param":"113662:CkQwOd1FPX"}
   - {"name":"泰国_R_520","type":"ssr","server":"ieplszhk-sz.cctelescope.xyz","port":50402,"password":"hGkQ6915tD","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","obfs-param":"ajax.microsoft.com","protocol-param":"113662:CkQwOd1FPX"}
   - {"name":"台湾_R_314","type":"ssr","server":"ieplszhk-sz.cctelescope.xyz","port":50802,"password":"hGkQ6915tD","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","obfs-param":"ajax.microsoft.com","protocol-param":"113662:CkQwOd1FPX"}
-  - {"name":"澳大利亚_R_560","type":"ssr","server":"iepl-zh.safetelescope.cc","port":11919,"password":"hGkQ6915tD","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","obfs-param":"ajax.microsoft.com","protocol-param":"113662:CkQwOd1FPX"}
   - {"name":"CTVIP-TW-2","type":"http","server":"ZjlhZjE4NjU2NDpiOTkxNDg0NDFhQGgwNzM5MDYud2FpaHVpemhpYmlhb3dhbmcuY29tOjExMzQz?peer=h073906.waihuizhibiaowang.com","port":null,"tls":true,"skip-cert-verify":true}
   - {"name":"🇨🇦 EPIC_加拿大3","type":"http","server":"ca3.epicbrowser.net","port":8888,"tls":true,"skip-cert-verify":true}
   - {"name":"🇨🇦 EPIC_加拿大1","type":"http","server":"ca.epicbrowser.net","port":8888,"tls":true,"skip-cert-verify":true}
