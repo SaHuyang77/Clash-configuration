@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-03-31 15:29:29
+# 创建时间：2023-04-01 16:03:38
 # 使用模版：V2RaySE 默认模版
-# 节点数量：32
+# 节点数量：34
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -21,31 +21,35 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"🇭🇰香港IEPL内网专线02","type":"ss","server":"fn600mliness016.svcline.com","port":995,"password":"b82344b3d531","cipher":"aes-256-gcm"}
   - {"name":"HK-HTTPS-三网优化 0x","type":"http","server":"www.chrome-helper.cc","port":21830,"tls":true,"skip-cert-verify":true}
+  - {"name":"🇭🇰香港IEPL内网专线02","type":"ss","server":"fn600mliness016.svcline.com","port":995,"password":"b82344b3d531","cipher":"aes-256-gcm"}
   - {"name":"🇭🇰万人草都不死","type":"ss","server":"fn600mlines021.svcline.com","port":995,"password":"507364fb791e","cipher":"aes-256-gcm"}
   - {"name":"🇭🇰香港跨境金融专线03","type":"ss","server":"fn600mlines024.svcline.com","port":995,"password":"a801632d2e2e","cipher":"aes-256-gcm"}
+  - {"name":"🇸🇬 SG aws","type":"ss","server":"aws.sg.securevpn.cc","port":1020,"password":"202303000000000000000020","cipher":"aes-128-gcm","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
+  - {"name":"🇯🇵 JP aws","type":"ss","server":"aws.jp.securevpn.cc","port":1020,"password":"202303000000000000000020","cipher":"aes-128-gcm","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
+  - {"name":"🇺🇸 US DigitalOcean","type":"ss","server":"do.us.securevpn.cc","port":1020,"password":"202303000000000000000020","cipher":"aes-128-gcm","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
+  - {"name":"🇸🇬 新加坡09","type":"ss","server":"43.207.66.60","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇸🇬 新加坡03","type":"ss","server":"43.201.82.105","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇰🇷 韩国07","type":"ss","server":"43.201.146.228","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇰🇷 韩国04","type":"ss","server":"43.201.50.238","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇰🇷 韩国02","type":"ss","server":"43.201.82.105","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇺🇸 美国02","type":"ss","server":"34.216.209.209","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇺🇸 美国06","type":"ss","server":"54.189.189.150","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇺🇸 美国07","type":"ss","server":"52.36.146.173","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇸🇬 新加坡20","type":"ss","server":"43.207.66.60","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
   - {"name":"🇸🇬 新加坡15","type":"ss","server":"13.215.159.170","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"🇯🇵 日本23","type":"ss","server":"43.207.120.229","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"🇯🇵 日本06","type":"ss","server":"43.206.194.235","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"🇸🇬 新加坡16","type":"ss","server":"43.207.221.161","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"🇸🇬 新加坡09","type":"ss","server":"43.207.221.161","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"🇯🇵 日本01","type":"ss","server":"43.207.120.229","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"🇸🇬 新加坡10","type":"ss","server":"43.200.6.0","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"🇯🇵 日本12","type":"ss","server":"43.201.14.240","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"🇸🇬 新加坡18","type":"ss","server":"43.200.6.0","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"🇸🇬 新加坡04","type":"ss","server":"43.201.86.41","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"🇯🇵 日本17","type":"ss","server":"43.201.149.16","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"🇰🇷 韩国09","type":"ss","server":"43.201.146.202","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"香港 03专线","type":"vmess","server":"hk03.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org","port":443,"cipher":"auto","uuid":"42e15b20-87e3-4e8e-8aed-3264526d7a41","alterId":0,"tls":true,"skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"12306","grpc-mode":"gun"}}
-  - {"name":"香港 02专线","type":"vmess","server":"hk02.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org","port":443,"cipher":"auto","uuid":"42e15b20-87e3-4e8e-8aed-3264526d7a41","alterId":0,"tls":true,"skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"12306","grpc-mode":"gun"}}
-  - {"name":"香港_R_446","type":"ssr","server":"ieplszhk-sz.cctelescope.xyz","port":50804,"password":"hGkQ6915tD","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","obfs-param":"ajax.microsoft.com","protocol-param":"113662:CkQwOd1FPX"}
+  - {"name":"🇸🇬 新加坡11","type":"ss","server":"43.200.6.15","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"香港_R_428","type":"ssr","server":"iepl-hn.cctelescope.xyz","port":21702,"password":"hGkQ6915tD","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","obfs-param":"ajax.microsoft.com","protocol-param":"113662:CkQwOd1FPX"}
+  - {"name":"新加坡_R_441","type":"ssr","server":"ieplszhk-sz.cctelescope.xyz","port":50306,"password":"hGkQ6915tD","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","obfs-param":"ajax.microsoft.com","protocol-param":"113662:CkQwOd1FPX"}
+  - {"name":"日本_R_510","type":"ssr","server":"ieplszhk-sz.cctelescope.xyz","port":50312,"password":"hGkQ6915tD","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","obfs-param":"ajax.microsoft.com","protocol-param":"113662:CkQwOd1FPX"}
+  - {"name":"日本_R_498","type":"ssr","server":"iepl-hn.cctelescope.xyz","port":21078,"password":"hGkQ6915tD","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","obfs-param":"ajax.microsoft.com","protocol-param":"113662:CkQwOd1FPX"}
+  - {"name":"新加坡_R_434","type":"ssr","server":"iepl-zh.safetelescope.cc","port":11600,"password":"hGkQ6915tD","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","obfs-param":"ajax.microsoft.com","protocol-param":"113662:CkQwOd1FPX"}
+  - {"name":"香港_R_450","type":"ssr","server":"iepl-hn.cctelescope.xyz","port":20001,"password":"hGkQ6915tD","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","obfs-param":"ajax.microsoft.com","protocol-param":"113662:CkQwOd1FPX"}
   - {"name":"越南_R_448","type":"ssr","server":"ieplszhk-sz.cctelescope.xyz","port":50899,"password":"hGkQ6915tD","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","obfs-param":"ajax.microsoft.com","protocol-param":"113662:CkQwOd1FPX"}
-  - {"name":"泰国_R_557","type":"ssr","server":"iepl-zh.safetelescope.cc","port":11799,"password":"hGkQ6915tD","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","obfs-param":"ajax.microsoft.com","protocol-param":"113662:CkQwOd1FPX"}
-  - {"name":"印度_R_361","type":"ssr","server":"iepl-hn.cctelescope.xyz","port":21637,"password":"hGkQ6915tD","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","obfs-param":"ajax.microsoft.com","protocol-param":"113662:CkQwOd1FPX"}
-  - {"name":"泰国_R_520","type":"ssr","server":"ieplszhk-sz.cctelescope.xyz","port":50402,"password":"hGkQ6915tD","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","obfs-param":"ajax.microsoft.com","protocol-param":"113662:CkQwOd1FPX"}
-  - {"name":"台湾_R_314","type":"ssr","server":"ieplszhk-sz.cctelescope.xyz","port":50802,"password":"hGkQ6915tD","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","obfs-param":"ajax.microsoft.com","protocol-param":"113662:CkQwOd1FPX"}
-  - {"name":"CTVIP-TW-2","type":"http","server":"ZjlhZjE4NjU2NDpiOTkxNDg0NDFhQGgwNzM5MDYud2FpaHVpemhpYmlhb3dhbmcuY29tOjExMzQz?peer=h073906.waihuizhibiaowang.com","port":null,"tls":true,"skip-cert-verify":true}
+  - {"name":"IPLC-APS-HK-1[ran-out](v2ray)","type":"vmess","server":"catlog.flareai.science","port":12543,"cipher":"auto","uuid":"b5181de8-66d4-4f8f-904c-23e606303a13","alterId":0,"tls":true,"skip-cert-verify":true,"network":"h2","h2-opts":{"host":["106-110-192-225.d.cjjd20.com"],"path":"/lzu4t6t5j7qp72ebep0c"}}
+  - {"name":"IEPL-AP-JP-1[ran-out](v2ray)","type":"vmess","server":"delivery.flareai.site","port":12443,"cipher":"auto","uuid":"b5181de8-66d4-4f8f-904c-23e606303a13","alterId":0,"tls":true,"skip-cert-verify":true,"network":"h2","h2-opts":{"host":["106-110-192-225.d.cjjd20.com"],"path":"/lzu4t6t5j7qp72ebep0c"}}
+  - {"name":"CTVIP-TW-2[ran-out](https)","type":"http","server":"ZjlhZjE4NjU2NDpiOTkxNDg0NDFhQGgwNzM5MDYud2FpaHVpemhpYmlhb3dhbmcuY29tOjExMzQz?peer=h073906.waihuizhibiaowang.com","port":null,"tls":true,"skip-cert-verify":true}
+  - {"name":"CTVIP-HK-2[ran-out](https)","type":"http","server":"ZjlhZjE4NjU2NDpiOTkxNDg0NDFhQGgwNzM5MDYud2FpaHVpemhpYmlhb3dhbmcuY29tOjExNTQz?peer=h073906.waihuizhibiaowang.com","port":null,"tls":true,"skip-cert-verify":true}
   - {"name":"🇨🇦 EPIC_加拿大3","type":"http","server":"ca3.epicbrowser.net","port":8888,"tls":true,"skip-cert-verify":true}
   - {"name":"🇨🇦 EPIC_加拿大1","type":"http","server":"ca.epicbrowser.net","port":8888,"tls":true,"skip-cert-verify":true}
   - {"name":"🇬🇧 EPIC_英国2","type":"http","server":"uk2.epicbrowser.net","port":8888,"tls":true,"skip-cert-verify":true}
@@ -57,31 +61,33 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇭🇰香港IEPL内网专线02
       - HK-HTTPS-三网优化 0x
+      - 🇭🇰香港IEPL内网专线02
       - 🇭🇰万人草都不死
       - 🇭🇰香港跨境金融专线03
-      - 🇸🇬 新加坡15
-      - 🇯🇵 日本23
-      - 🇯🇵 日本06
-      - 🇸🇬 新加坡16
+      - 🇸🇬 SG aws
+      - 🇯🇵 JP aws
+      - 🇺🇸 US DigitalOcean
       - 🇸🇬 新加坡09
-      - 🇯🇵 日本01
-      - 🇸🇬 新加坡10
-      - 🇯🇵 日本12
-      - 🇸🇬 新加坡18
-      - 🇸🇬 新加坡04
-      - 🇯🇵 日本17
-      - 🇰🇷 韩国09
-      - 香港 03 | 专线
-      - 香港 02 | 专线
-      - 香港_R_446
+      - 🇸🇬 新加坡03
+      - 🇰🇷 韩国07
+      - 🇰🇷 韩国04
+      - 🇰🇷 韩国02
+      - 🇺🇸 美国02
+      - 🇺🇸 美国06
+      - 🇺🇸 美国07
+      - 🇸🇬 新加坡20
+      - 🇸🇬 新加坡15
+      - 🇸🇬 新加坡11
+      - 香港_R_428
+      - 新加坡_R_441
+      - 日本_R_510
+      - 日本_R_498
+      - 新加坡_R_434
+      - 香港_R_450
       - 越南_R_448
-      - 泰国_R_557
-      - 印度_R_361
-      - 泰国_R_520
-      - 台湾_R_314
-      - 澳大利亚_R_560
+      - IPLC-APS-HK-1[ran-out](v2ray)
+      - IEPL-AP-JP-1[ran-out](v2ray)
       - CTVIP-TW-2[ran-out](https)
       - CTVIP-HK-2[ran-out](https)
       - 🇨🇦 EPIC_加拿大3
@@ -95,31 +101,33 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰香港IEPL内网专线02
       - HK-HTTPS-三网优化 0x
+      - 🇭🇰香港IEPL内网专线02
       - 🇭🇰万人草都不死
       - 🇭🇰香港跨境金融专线03
-      - 🇸🇬 新加坡15
-      - 🇯🇵 日本23
-      - 🇯🇵 日本06
-      - 🇸🇬 新加坡16
+      - 🇸🇬 SG aws
+      - 🇯🇵 JP aws
+      - 🇺🇸 US DigitalOcean
       - 🇸🇬 新加坡09
-      - 🇯🇵 日本01
-      - 🇸🇬 新加坡10
-      - 🇯🇵 日本12
-      - 🇸🇬 新加坡18
-      - 🇸🇬 新加坡04
-      - 🇯🇵 日本17
-      - 🇰🇷 韩国09
-      - 香港 03 | 专线
-      - 香港 02 | 专线
-      - 香港_R_446
+      - 🇸🇬 新加坡03
+      - 🇰🇷 韩国07
+      - 🇰🇷 韩国04
+      - 🇰🇷 韩国02
+      - 🇺🇸 美国02
+      - 🇺🇸 美国06
+      - 🇺🇸 美国07
+      - 🇸🇬 新加坡20
+      - 🇸🇬 新加坡15
+      - 🇸🇬 新加坡11
+      - 香港_R_428
+      - 新加坡_R_441
+      - 日本_R_510
+      - 日本_R_498
+      - 新加坡_R_434
+      - 香港_R_450
       - 越南_R_448
-      - 泰国_R_557
-      - 印度_R_361
-      - 泰国_R_520
-      - 台湾_R_314
-      - 澳大利亚_R_560
+      - IPLC-APS-HK-1[ran-out](v2ray)
+      - IEPL-AP-JP-1[ran-out](v2ray)
       - CTVIP-TW-2[ran-out](https)
       - CTVIP-HK-2[ran-out](https)
       - 🇨🇦 EPIC_加拿大3
@@ -133,31 +141,33 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰香港IEPL内网专线02
       - HK-HTTPS-三网优化 0x
+      - 🇭🇰香港IEPL内网专线02
       - 🇭🇰万人草都不死
       - 🇭🇰香港跨境金融专线03
-      - 🇸🇬 新加坡15
-      - 🇯🇵 日本23
-      - 🇯🇵 日本06
-      - 🇸🇬 新加坡16
+      - 🇸🇬 SG aws
+      - 🇯🇵 JP aws
+      - 🇺🇸 US DigitalOcean
       - 🇸🇬 新加坡09
-      - 🇯🇵 日本01
-      - 🇸🇬 新加坡10
-      - 🇯🇵 日本12
-      - 🇸🇬 新加坡18
-      - 🇸🇬 新加坡04
-      - 🇯🇵 日本17
-      - 🇰🇷 韩国09
-      - 香港 03 | 专线
-      - 香港 02 | 专线
-      - 香港_R_446
+      - 🇸🇬 新加坡03
+      - 🇰🇷 韩国07
+      - 🇰🇷 韩国04
+      - 🇰🇷 韩国02
+      - 🇺🇸 美国02
+      - 🇺🇸 美国06
+      - 🇺🇸 美国07
+      - 🇸🇬 新加坡20
+      - 🇸🇬 新加坡15
+      - 🇸🇬 新加坡11
+      - 香港_R_428
+      - 新加坡_R_441
+      - 日本_R_510
+      - 日本_R_498
+      - 新加坡_R_434
+      - 香港_R_450
       - 越南_R_448
-      - 泰国_R_557
-      - 印度_R_361
-      - 泰国_R_520
-      - 台湾_R_314
-      - 澳大利亚_R_560
+      - IPLC-APS-HK-1[ran-out](v2ray)
+      - IEPL-AP-JP-1[ran-out](v2ray)
       - CTVIP-TW-2[ran-out](https)
       - CTVIP-HK-2[ran-out](https)
       - 🇨🇦 EPIC_加拿大3
@@ -170,31 +180,33 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇭🇰香港IEPL内网专线02
       - HK-HTTPS-三网优化 0x
+      - 🇭🇰香港IEPL内网专线02
       - 🇭🇰万人草都不死
       - 🇭🇰香港跨境金融专线03
-      - 🇸🇬 新加坡15
-      - 🇯🇵 日本23
-      - 🇯🇵 日本06
-      - 🇸🇬 新加坡16
+      - 🇸🇬 SG aws
+      - 🇯🇵 JP aws
+      - 🇺🇸 US DigitalOcean
       - 🇸🇬 新加坡09
-      - 🇯🇵 日本01
-      - 🇸🇬 新加坡10
-      - 🇯🇵 日本12
-      - 🇸🇬 新加坡18
-      - 🇸🇬 新加坡04
-      - 🇯🇵 日本17
-      - 🇰🇷 韩国09
-      - 香港 03 | 专线
-      - 香港 02 | 专线
-      - 香港_R_446
+      - 🇸🇬 新加坡03
+      - 🇰🇷 韩国07
+      - 🇰🇷 韩国04
+      - 🇰🇷 韩国02
+      - 🇺🇸 美国02
+      - 🇺🇸 美国06
+      - 🇺🇸 美国07
+      - 🇸🇬 新加坡20
+      - 🇸🇬 新加坡15
+      - 🇸🇬 新加坡11
+      - 香港_R_428
+      - 新加坡_R_441
+      - 日本_R_510
+      - 日本_R_498
+      - 新加坡_R_434
+      - 香港_R_450
       - 越南_R_448
-      - 泰国_R_557
-      - 印度_R_361
-      - 泰国_R_520
-      - 台湾_R_314
-      - 澳大利亚_R_560
+      - IPLC-APS-HK-1[ran-out](v2ray)
+      - IEPL-AP-JP-1[ran-out](v2ray)
       - CTVIP-TW-2[ran-out](https)
       - CTVIP-HK-2[ran-out](https)
       - 🇨🇦 EPIC_加拿大3
@@ -207,31 +219,33 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇭🇰香港IEPL内网专线02
       - HK-HTTPS-三网优化 0x
+      - 🇭🇰香港IEPL内网专线02
       - 🇭🇰万人草都不死
       - 🇭🇰香港跨境金融专线03
-      - 🇸🇬 新加坡15
-      - 🇯🇵 日本23
-      - 🇯🇵 日本06
-      - 🇸🇬 新加坡16
+      - 🇸🇬 SG aws
+      - 🇯🇵 JP aws
+      - 🇺🇸 US DigitalOcean
       - 🇸🇬 新加坡09
-      - 🇯🇵 日本01
-      - 🇸🇬 新加坡10
-      - 🇯🇵 日本12
-      - 🇸🇬 新加坡18
-      - 🇸🇬 新加坡04
-      - 🇯🇵 日本17
-      - 🇰🇷 韩国09
-      - 香港 03 | 专线
-      - 香港 02 | 专线
-      - 香港_R_446
+      - 🇸🇬 新加坡03
+      - 🇰🇷 韩国07
+      - 🇰🇷 韩国04
+      - 🇰🇷 韩国02
+      - 🇺🇸 美国02
+      - 🇺🇸 美国06
+      - 🇺🇸 美国07
+      - 🇸🇬 新加坡20
+      - 🇸🇬 新加坡15
+      - 🇸🇬 新加坡11
+      - 香港_R_428
+      - 新加坡_R_441
+      - 日本_R_510
+      - 日本_R_498
+      - 新加坡_R_434
+      - 香港_R_450
       - 越南_R_448
-      - 泰国_R_557
-      - 印度_R_361
-      - 泰国_R_520
-      - 台湾_R_314
-      - 澳大利亚_R_560
+      - IPLC-APS-HK-1[ran-out](v2ray)
+      - IEPL-AP-JP-1[ran-out](v2ray)
       - CTVIP-TW-2[ran-out](https)
       - CTVIP-HK-2[ran-out](https)
       - 🇨🇦 EPIC_加拿大3
@@ -244,31 +258,33 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇭🇰香港IEPL内网专线02
       - HK-HTTPS-三网优化 0x
+      - 🇭🇰香港IEPL内网专线02
       - 🇭🇰万人草都不死
       - 🇭🇰香港跨境金融专线03
-      - 🇸🇬 新加坡15
-      - 🇯🇵 日本23
-      - 🇯🇵 日本06
-      - 🇸🇬 新加坡16
+      - 🇸🇬 SG aws
+      - 🇯🇵 JP aws
+      - 🇺🇸 US DigitalOcean
       - 🇸🇬 新加坡09
-      - 🇯🇵 日本01
-      - 🇸🇬 新加坡10
-      - 🇯🇵 日本12
-      - 🇸🇬 新加坡18
-      - 🇸🇬 新加坡04
-      - 🇯🇵 日本17
-      - 🇰🇷 韩国09
-      - 香港 03 | 专线
-      - 香港 02 | 专线
-      - 香港_R_446
+      - 🇸🇬 新加坡03
+      - 🇰🇷 韩国07
+      - 🇰🇷 韩国04
+      - 🇰🇷 韩国02
+      - 🇺🇸 美国02
+      - 🇺🇸 美国06
+      - 🇺🇸 美国07
+      - 🇸🇬 新加坡20
+      - 🇸🇬 新加坡15
+      - 🇸🇬 新加坡11
+      - 香港_R_428
+      - 新加坡_R_441
+      - 日本_R_510
+      - 日本_R_498
+      - 新加坡_R_434
+      - 香港_R_450
       - 越南_R_448
-      - 泰国_R_557
-      - 印度_R_361
-      - 泰国_R_520
-      - 台湾_R_314
-      - 澳大利亚_R_560
+      - IPLC-APS-HK-1[ran-out](v2ray)
+      - IEPL-AP-JP-1[ran-out](v2ray)
       - CTVIP-TW-2[ran-out](https)
       - CTVIP-HK-2[ran-out](https)
       - 🇨🇦 EPIC_加拿大3
@@ -298,31 +314,33 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰香港IEPL内网专线02
       - HK-HTTPS-三网优化 0x
+      - 🇭🇰香港IEPL内网专线02
       - 🇭🇰万人草都不死
       - 🇭🇰香港跨境金融专线03
-      - 🇸🇬 新加坡15
-      - 🇯🇵 日本23
-      - 🇯🇵 日本06
-      - 🇸🇬 新加坡16
+      - 🇸🇬 SG aws
+      - 🇯🇵 JP aws
+      - 🇺🇸 US DigitalOcean
       - 🇸🇬 新加坡09
-      - 🇯🇵 日本01
-      - 🇸🇬 新加坡10
-      - 🇯🇵 日本12
-      - 🇸🇬 新加坡18
-      - 🇸🇬 新加坡04
-      - 🇯🇵 日本17
-      - 🇰🇷 韩国09
-      - 香港 03 | 专线
-      - 香港 02 | 专线
-      - 香港_R_446
+      - 🇸🇬 新加坡03
+      - 🇰🇷 韩国07
+      - 🇰🇷 韩国04
+      - 🇰🇷 韩国02
+      - 🇺🇸 美国02
+      - 🇺🇸 美国06
+      - 🇺🇸 美国07
+      - 🇸🇬 新加坡20
+      - 🇸🇬 新加坡15
+      - 🇸🇬 新加坡11
+      - 香港_R_428
+      - 新加坡_R_441
+      - 日本_R_510
+      - 日本_R_498
+      - 新加坡_R_434
+      - 香港_R_450
       - 越南_R_448
-      - 泰国_R_557
-      - 印度_R_361
-      - 泰国_R_520
-      - 台湾_R_314
-      - 澳大利亚_R_560
+      - IPLC-APS-HK-1[ran-out](v2ray)
+      - IEPL-AP-JP-1[ran-out](v2ray)
       - CTVIP-TW-2[ran-out](https)
       - CTVIP-HK-2[ran-out](https)
       - 🇨🇦 EPIC_加拿大3
